@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo de Exercício</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <header>
+    <h1>Calculator Design Using HTML Layout</h1>
+  </header>
+  <section>
+    <input type="button" value="menu" id="menu">
+    <nav id="navMenu">
+      <table>
+        <thead>Histórico</thead>
+        <tbody id="historico">
+
+        </tbody>
+      </table>
+    </nav>
+    <div class="container">
+      <p class="header">Calculator</p>
+      <div id="teste" class="green">
+        <span id="visorMemoria"></span>
+        <span id="visorOperador"></span>
+      </div>
+      <div id="result">0</div>
+      <div class="new">
+        <input type="button" id="porcentagem" value="%" class="global">
+        <input type="button" id="delvisor" value="CE" class="global">
+        <input type="button" id="del" value="C" class="global">
+        <input type="button" id="backspace" value="⌫" class="global">
+      </div>
+      <div class="second-row">
+        <input type="button" id="dividirUm" value="1/x" class="global">
+        <input type="button" id="potencia" value="x²" class="global">
+        <input type="button" id="raizquadrada" value="√" class="global">
+        <input type="button" id="/" value="÷" class="global">
+      </div>
+      <div class="third-row">
+        <input type="button" id="7" value="7" class="global white">
+        <input type="button" id="8" value="8" class="global white">
+        <input type="button" id="9" value="9" class="global white">
+        <input type="button" id="X" value="X" class="global">
+      </div>
+      <div class="fourth-row">
+        <input type="button" id="4" value="4" class="global white">
+        <input type="button" id="5" value="5" class="global white">
+        <input type="button" id="6" value="6" class="global white">
+        <input type="button" id="-" value="-" class="global">
+      </div>
+      <div class="conflict">
+        <div class="left">
+          <input type="button" id="1" value="1" class="global white">
+          <input type="button" id="2" value="2" class="global white">
+          <input type="button" id="3" value="3" class="global white">
+          <input type="button" id="+" value="+" class="global">
+        </div>
+        <div class="right">
+          <input type="button" id="maismenos" value="+/-" class="global white">
+          <input type="button" id="0" value="0" class="global white">
+          <input type="button" id="ponto" value="." class="global white">
+          <input type="button" id="igual" value="=" class="global blue">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; Ismaelll</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
