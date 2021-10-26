@@ -21,8 +21,8 @@ h1{
   }
   nav{
     position: absolute;
-    top: 40px; left: 40px;
-    background-color: red;
+    top: 125px; left: 472px;
+    background-color: rgb(105, 91, 91);
   }
   .menu_close {
     left: -120px;
@@ -124,4 +124,9 @@ h1{
     color: rgb(0, 0, 0);
     height: 15px;
     background-color: white;
+  }
+  #menu{
+    position:absolute;
+	  top: 125px;;
+	  left: 533px;
   }
